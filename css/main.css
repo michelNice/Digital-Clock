@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  font-size: 1rem;
+  height: 100vh;
+  background: linear-gradient(to top, pink 0, pink 50%, paleturquoise 50%, paleturquoise 100%);
+  overflow: hidden;
+  font-size: 2rem;
+}
+
+header h1 {
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.main-conteiner {
+  display: flex;
+  flex-direction: column;
+}
+.main-conteiner .conteiner {
+  display: flex;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.main-conteiner .conteiner .box {
+  font-size: 10rem;
+  background: #fff;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  width: 16rem;
+  text-align: center;
+}
+.main-conteiner .conteiner span {
+  font-size: 10rem;
+}
+
+@media (max-width: 75rem) {
+  body {
+    font-size: 1rem;
+  }
+  header h1 {
+    font-size: 1rem;
+  }
+  .main-conteiner {
+    position: relative;
+    height: 45vh;
+  }
+  .main-conteiner .conteiner {
+    top: 106%;
+    margin: auto;
+  }
+  .main-conteiner .conteiner .box {
+    font-size: 2rem;
+    width: 3rem;
+  }
+  .main-conteiner .conteiner span {
+    font-size: 3rem;
+  }
+}
+@media (max-width: 30rem) {
+  .main-conteiner .conteiner {
+    top: 102%;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
