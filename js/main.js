@@ -19,9 +19,8 @@ const clock = function(){
     let result = now.toLocaleDateString('en-us',week)
 
 
-    date.textContent = result
+    date.innerText = result
    
-
 
     seconds.innerText = ("0" + s).substr(-2)
 
