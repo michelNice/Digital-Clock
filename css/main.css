@@ -67,6 +67,9 @@ header h1 {
   .main-conteiner .conteiner {
     top: 102%;
   }
+  header h1 {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
