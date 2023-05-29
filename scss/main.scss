@@ -48,8 +48,17 @@ header h1{
 }
 
 
-@media(max-width:75rem){
+.footer-date{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    padding-top:30rem;
+}
 
+@media(max-width:75rem){
+    footer{
+        display: flex;align-items: center;justify-content:center;padding-top:7rem;
+    }
         
     body{font-size: 1rem;}
 
@@ -75,6 +84,4 @@ header h1{
 
 @media(max-width:30rem){
     .main-conteiner{ .conteiner{top:102%;}}
-
-    
 }

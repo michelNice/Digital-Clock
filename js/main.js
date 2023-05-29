@@ -1,13 +1,25 @@
 const hours = document.querySelector('.hour')
 const minites = document.querySelector('.minute')
 const seconds = document.querySelector('.second')
-
+const date = document.querySelector('.date')
 
 const clock = function(){
     const now = new Date()
     const h = now.getHours()
     const m = now.getMinutes()
     const s = now.getSeconds()
+
+
+    const week = {
+        year:'numeric',
+        month:'long',
+        weekday:'long'
+    }
+
+    let result = now.toLocaleDateString('en-us',week)
+
+
+    date.textContent = result
    
 
 
