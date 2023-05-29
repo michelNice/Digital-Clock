@@ -48,7 +48,7 @@ header h1 {
 }
 
 @media (max-width: 75rem) {
-  footer {
+  .footer-date {
     display: flex;
     align-items: center;
     justify-content: center;
