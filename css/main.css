@@ -12,12 +12,12 @@ body {
   height: 100vh;
   background: linear-gradient(to top, pink 0, pink 50%, paleturquoise 50%, paleturquoise 100%);
   overflow: hidden;
-  font-size: 2rem;
+  font-size: 1rem;
 }
 
 header h1 {
   text-align: center;
-  margin-top: 1rem;
+  margin-top: 1.3rem;
 }
 
 /*****************************/
