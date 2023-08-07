@@ -17,7 +17,7 @@ body {
 
 header h1 {
   text-align: center;
-  margin-top: 1.3rem;
+  padding-top: 1.3rem; /* I replace "margin-top" with "padding-top", it makes more sense in this context */
 }
 
 /*****************************/
@@ -71,7 +71,7 @@ header h1 {
     height: 45vh;
   }
   .main-conteiner .conteiner {
-    top: 106%;
+    top: 100%; /* before: 106% - that width change behavior of another elements, so I defined to 100% */
     margin: auto;
   }
   .main-conteiner .conteiner .box {
@@ -84,7 +84,7 @@ header h1 {
 }
 @media (max-width: 30rem) {
   .main-conteiner .conteiner {
-    top: 102%;
+    top: 100%; /* before: 102% - that width change behavior of another elements, so I defined to 100% */
   }
 }
 
