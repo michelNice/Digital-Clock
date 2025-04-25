@@ -30,4 +30,4 @@ const clock = function(){
   
 }
 
-setInterval(clock, 1000)
+setInterval(clock, 3000)
